@@ -29,8 +29,36 @@ nav h1 {
     letter-spacing: 1px;
 }
 
+nav .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+nav .brand a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav .brand img {
+    max-height: 50px;
+    width: auto;
+    border-radius: 8px;
+}
+
+nav .brand span {
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 18px;
     list-style: none;
 }
